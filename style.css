@@ -122,7 +122,6 @@ body {
     overflow-x: hidden;
 }
 
-
 .container {
     padding-right: 0;
     padding-left: 0;
@@ -2004,35 +2003,8 @@ video::-webkit-media-controls {
 }
 
 video.player {
-   
-    max-width: auto;
+    max-width: 100%;
 }
-
-.my_video_boy {
-    height: auto;
-    width: 100%;
-    position: fixed;
-    z-index: -1;
-}
-
-@media screen and (max-width: 1360px) {
-    .my_video_boy {
-        height: 100%;
-        width: auto;
-        position: fixed;
-        z-index: -1;
-    }
-}
-
-.bg-overlay {
-    background-color: rgba(4, 3, 3, 0.95);
-    opacity: 0.9;
-    top: 0;
-    left: 0;
-    height: auto;
-    width: auto;
-  }
-
 
 .plyr__control--overlaid {
     border: 0;
@@ -5655,11 +5627,6 @@ pre {
 .list-blue>li:before,
 .list-blue i {
     color: #5ca7db
-}
-.color-black,
-.list-blue>li:before,
-.list-blue i {
-    color: #000000
 }
 
 .color-default,
